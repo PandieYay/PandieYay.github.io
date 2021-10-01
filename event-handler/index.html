@@ -9,8 +9,20 @@
 <body>
     <h1>JS Event Handling</h1>
 
-    <label for="namaPengguna">Create Username:</label>
-    <input type="text" id="namaPengguna">
+    <label for="Username">Create Username:</label>
+    <input type="text" id="Username">
+
+    <label for="Password">Enter Password:</label>
+    <input type="password" id="Password">
+
+    <a onclick="sayHi()" href="" target="_blank">Metallica</a>
+
+    <script>
+        function sayHi(){
+            event.preventDefault();
+            alert("Stopped ez")
+        }
+    </script>
 
     <script src="js/events.js"></script>
 </body>
